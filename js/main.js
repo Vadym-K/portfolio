@@ -41,12 +41,12 @@ $(function() {
 		$(this).find('span').html(Math.round(94 * progress) + '<i>%</i>');
 	});
 	$('.circle_seven').circleProgress({
-		value: 0.52
+		value: 0.80
 	}).on('circle-animation-progress', function(event, progress) {
 		$(this).find('span').html(Math.round(72 * progress) + '<i>%</i>');
 	});
 	$('.circle_eight').circleProgress({
-		value: 0.96
+		value: 0.99
 	}).on('circle-animation-progress', function(event, progress) {
 		$(this).find('span').html(Math.round(79 * progress) + '<i>%</i>');
 	});
@@ -78,10 +78,10 @@ function circleInit() {
 		$(this).find('span').html(Math.round(94 * progress) + '<i>%</i>');
 	});
 	$('.circle_seven').circleProgress({}).on('circle-animation-progress', function(event, progress) {
-		$(this).find('span').html(Math.round(52 * progress) + '<i>%</i>');
+		$(this).find('span').html(Math.round(80 * progress) + '<i>%</i>');
 	});
 	$('.circle_eight').circleProgress({}).on('circle-animation-progress', function(event, progress) {
-		$(this).find('span').html(Math.round(96 * progress) + '<i>%</i>');
+		$(this).find('span').html(Math.round(99 * progress) + '<i>%</i>');
 	});
 	marker = false;
 }
